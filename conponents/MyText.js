@@ -7,6 +7,7 @@ function MyText({children}) {
 
 const styles = StyleSheet.create({
     text:{
+        fontFamily:'Mj Flow',
         fontSize:18,
         color:'#555',
         fontFamily:Platform.OS === "android" ? "Roboto" : "Avenir",
